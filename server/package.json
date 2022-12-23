@@ -1,0 +1,24 @@
+{
+  "name": "webportfolio",
+  "version": "1.0.0",
+  "description": "Web Application Portfolio for Kevin Flynn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kflynn45/WebPortfolio.git"
+  },
+  "author": "Kevin Flynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kflynn45/WebPortfolio/issues"
+  },
+  "homepage": "https://github.com/kflynn45/WebPortfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
