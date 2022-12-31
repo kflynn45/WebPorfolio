@@ -17,12 +17,15 @@ const resumeDownload = () => {
 
 function App(){
   return(
-    <div class="mainHeader">
-      <h1>Kevin Flynn</h1>
-      <button class="resumeButton" onClick={resumeDownload}>
-        Resume PDF Download
-      </button>
-    </div>
+      <div>
+        <section class="banner">
+          <h1 class="fade-in">Hi, my name is Kevin Flynn.</h1>
+          <p class="fade-in delayed">I like to make useful, user friendly software.</p>
+        </section>
+        <button onClick={resumeDownload}>
+          Resume PDF Download
+        </button>
+      </div>
   );
 }
 
